@@ -1,0 +1,25 @@
+{
+	"name": "@ljharb/coauthors",
+	"version": "0.0.0",
+	"description": "A cli to generate a complete git co-authors list, including existing co-authors, for use in a commit message.",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/coauthors.git"
+	},
+	"keywords": [
+		"git",
+		"coauthors",
+		"authors",
+		"log",
+		"commit"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/coauthors/issues"
+	},
+	"homepage": "https://github.com/ljharb/coauthors#readme"
+}
