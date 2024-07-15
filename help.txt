@@ -1,0 +1,4 @@
+Usage:
+commit-to-co-authors <remote>
+
+`remote` defaults to `origin`.

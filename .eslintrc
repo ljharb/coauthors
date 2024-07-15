@@ -1,0 +1,13 @@
+{
+	"root": true,
+
+	"extends": "@ljharb/eslint-config/node/20",
+
+	"rules": {
+		"complexity": "off",
+		"max-lines-per-function": "off",
+		"max-statements": "off",
+		"no-magic-numbers": "off",
+		"sort-keys": "off",
+	},
+}
