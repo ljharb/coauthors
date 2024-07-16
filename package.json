@@ -1,6 +1,6 @@
 {
 	"name": "@ljharb/coauthors",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "A cli to generate a complete git co-authors list, including existing co-authors, for use in a commit message.",
 	"bin": "./bin.mjs",
 	"exports": {
