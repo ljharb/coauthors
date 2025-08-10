@@ -1,4 +1,4 @@
 Usage:
-commit-to-co-authors <remote>
+co-authors <remote>
 
 `remote` defaults to `origin`.

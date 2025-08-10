@@ -20,7 +20,7 @@ coauthors # if installed and in the PATH
 ```sh
 $ coauthors --help
 Usage:
-commit-to-co-authors <remote>
+co-authors <remote>
 
 `remote` defaults to `origin`.
 ```
