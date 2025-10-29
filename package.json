@@ -38,7 +38,8 @@
 	},
 	"homepage": "https://github.com/ljharb/coauthors#readme",
 	"dependencies": {
-		"commit-to-co-authors": "^0.1.0"
+		"commit-to-co-authors": "^0.1.0",
+		"pargs": "^1.0.0"
 	},
 	"engines": {
 		"node": ">= 22.4"
