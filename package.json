@@ -47,7 +47,7 @@
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.2.0",
 		"@ljharb/tsconfig": "^0.3.2",
-		"@types/node": "^20.19.14",
+		"@types/node": "^22.18.13",
 		"@types/tape": "^5.8.1",
 		"auto-changelog": "^2.5.0",
 		"c8": "^10.1.3",
