@@ -42,7 +42,7 @@
 		"pargs": "^1.0.0"
 	},
 	"engines": {
-		"node": ">= 22.4"
+		"node": "^22.20 || ^24.10 || >= 25"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.2.0",
