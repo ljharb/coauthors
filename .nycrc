@@ -1,0 +1,11 @@
+{ 
+	"all": true,
+	"reporters": [
+		"html",
+		"text",
+		"lcov"
+	],
+	"exclude": [
+		"coverage"
+	]
+}

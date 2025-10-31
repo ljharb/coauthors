@@ -60,18 +60,6 @@
 		"tape": "^5.9.0",
 		"typescript": "next"
 	},
-	"c8": {
-		"all": true,
-		"reporters": [
-			"html",
-			"text",
-			"lcov"
-		],
-		"exclude": [
-			"coverage",
-			"./pargs.mjs"
-		]
-	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
 		"template": "keepachangelog",
@@ -84,6 +72,7 @@
 		"ignore": [
 			".github/workflows",
 			".eslintrc",
+			".nycrc",
 			"test"
 		]
 	}
