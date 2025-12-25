@@ -39,7 +39,7 @@
 	"homepage": "https://github.com/ljharb/coauthors#readme",
 	"dependencies": {
 		"commit-to-co-authors": "^0.1.0",
-		"pargs": "^1.0.0"
+		"pargs": "^1.2.1"
 	},
 	"engines": {
 		"node": "^22.20 || ^24.10 || >= 25"
