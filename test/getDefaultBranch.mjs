@@ -41,3 +41,19 @@ fatal: ambiguous argument '${remote}/HEAD': unknown revision or path not in the 
 		'nonexistent remote throws',
 	);
 });
+
+test('getDefaultBranch: fallback to main when regex does not match', async (t) => {
+	const { default: getDefaultBranch } = await esmock(
+		'../getDefaultBranch.mjs',
+		{
+			child_process: { // eslint-disable-line camelcase
+				/** @type {(cmd: string) => Buffer} */
+				execSync() {
+					return Buffer.from('HEAD\n');
+				},
+			},
+		},
+	);
+
+	t.equal(getDefaultBranch('origin'), 'main', 'falls back to main when no `/` in output');
+});
