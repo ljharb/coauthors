@@ -1,4 +1,0 @@
-Usage:
-co-authors <remote>
-
-`remote` defaults to `origin`.

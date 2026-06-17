@@ -9,7 +9,10 @@ const {
 	help,
 	positionals,
 	errors,
-} = await pargs(import.meta.filename, { allowPositionals: 1 });
+} = await pargs(import.meta.filename, {
+	allowPositionals: 1,
+	positionals: [{ description: 'the git remote to read co-authors from (default: origin)', name: 'remote' }],
+});
 
 const remote = validateRemote(positionals[0] ?? 'origin');
 
