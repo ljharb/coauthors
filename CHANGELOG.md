@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.0.1](https://github.com/ljharb/coauthors/compare/v2.0.0...v2.0.1) - 2026-06-18
+
+### Commits
+
+- [types] clean up some annotations [`5c56964`](https://github.com/ljharb/coauthors/commit/5c56964c94ec43d0c593b8e82a3759267c940e22)
+- [Dev Deps] update `eslint` [`e39c67a`](https://github.com/ljharb/coauthors/commit/e39c67ad57b9de9c9d627ca8ac729d1472d152b7)
+- [Tests] extract coverage config to file [`b13990e`](https://github.com/ljharb/coauthors/commit/b13990e8049a070dee35d6d9b3c3ce4d242f53ba)
+- [actions] update workflows [`a4bb6ef`](https://github.com/ljharb/coauthors/commit/a4bb6ef475b80587431ed03400a850bf22c15709)
+- [Tests] increase coverage [`b980162`](https://github.com/ljharb/coauthors/commit/b9801621dc9bcf2d2d0c00f2a252f89bf89a8791)
+- [Dev Deps] update `@ljharb/eslint-config`, `@types/node`, `auto-changelog`, `esmock`, `tape` [`7562264`](https://github.com/ljharb/coauthors/commit/7562264c14baf865411f03b5f3a31d8451bdf0c5)
+- [Deps] update `pargs` [`9be2a35`](https://github.com/ljharb/coauthors/commit/9be2a35b70f1ad771cc1bfb743cde7c48702ca4c)
+- [Dev Deps] update `@ljharb/eslint-config`, `@types/node`, `eslint`, `npmignore` [`78926c8`](https://github.com/ljharb/coauthors/commit/78926c848b5644ab3a08693b8a28d85171bd7e06)
+- [Dev Deps] update `@ljharb/eslint-config`, `@types/node` [`4316fe4`](https://github.com/ljharb/coauthors/commit/4316fe4f0975e1472af8a857666e82b5c6f4fc9a)
+- [Deps] update `pargs` [`0bd17fb`](https://github.com/ljharb/coauthors/commit/0bd17fb53c0b1b8058f8d5d47d3b53ffe9c55ff8)
+- [Deps] update `pargs` [`9cbfea5`](https://github.com/ljharb/coauthors/commit/9cbfea509bd39b6dfa020818169bfd7499fbf761)
+- [Deps] update `pargs` [`f036877`](https://github.com/ljharb/coauthors/commit/f0368774d195dfaf96356e8ce6e8ac4173a55485)
+- [Dev Deps] update `c8` [`ce1d62e`](https://github.com/ljharb/coauthors/commit/ce1d62e3613fc31ed8ee6a0bb4a213264b976c75)
+- [Deps] update `pargs` [`edb1de1`](https://github.com/ljharb/coauthors/commit/edb1de1ffb208b503e1ac06a1a2c55ef289a8bd5)
+
 ## [v2.0.0](https://github.com/ljharb/coauthors/compare/v1.0.0...v2.0.0) - 2025-10-29
 
 ### Commits
