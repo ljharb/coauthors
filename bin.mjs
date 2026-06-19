@@ -17,12 +17,11 @@ const {
 const remote = validateRemote(positionals[0] ?? 'origin');
 
 if (typeof remote !== 'string') {
-	errors.push(remote.error);
+	errors[errors.length] = `${remote}`;
 }
 
 await help();
 
-// eslint-disable-next-line no-extra-parens
-const results = Array.from(getResults(/** @type {string} */ (remote)), (x) => `Co-authored-by: ${x}`);
+const results = Array.from(getResults(`${remote}`), (x) => `Co-authored-by: ${x}`);
 
 console.log(results.join('\n'));

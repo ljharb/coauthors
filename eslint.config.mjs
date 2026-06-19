@@ -7,6 +7,7 @@ export default [
 			complexity: 'off',
 			'max-lines-per-function': 'off',
 			'max-statements': 'off',
+			'no-extra-parens': 'off',
 			'no-magic-numbers': 'off',
 			'sort-keys': 'off',
 		},
