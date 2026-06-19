@@ -6,6 +6,7 @@
 		"lcov"
 	],
 	"exclude": [
-		"coverage"
+		"coverage",
+		"eslint.config.mjs"
 	]
 }
