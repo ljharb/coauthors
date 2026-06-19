@@ -45,19 +45,17 @@
 		"node": "^22.20 || ^24.10 || >= 25"
 	},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^22.2.0",
+		"@ljharb/eslint-config": "^22.2.3",
 		"@ljharb/tsconfig": "^0.3.2",
-		"@types/node": "^22.19.15",
-		"@types/tape": "^5.8.1",
-		"auto-changelog": "^2.5.0",
+		"@types/node": "^22.19.21",
+		"auto-changelog": "^2.6.0",
 		"c8": "^11.0.0",
-		"encoding": "^0.1.13",
 		"eslint": "^8.57.1",
-		"esmock": "^2.7.3",
+		"esmock": "^2.7.6",
 		"in-publish": "^2.0.1",
 		"npmignore": "^0.3.5",
 		"safe-publish-latest": "^2.0.0",
-		"tape": "^5.9.0",
+		"tape": "^5.10.2",
 		"typescript": "next"
 	},
 	"auto-changelog": {
